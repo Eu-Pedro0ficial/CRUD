@@ -1,0 +1,25 @@
+{
+    "name": "pedro/crud",
+    "autoload": {
+        "files": [
+            "app/functions/debbug.php",
+            "app/functions/load.php",
+            "app/functions/allUsers.php",
+            "app/functions/validate.php",
+            "app/functions/flash.php",
+            "app/functions/redirect.php",
+            "app/functions/logged.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "pedro"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
